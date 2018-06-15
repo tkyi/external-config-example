@@ -1,0 +1,16 @@
+childPipelines:
+  scmUrls:
+    - git@github.com:screwdriver-cd-test/external-config-child1.git
+    - git@github.com:screwdriver-cd-test/external-config-child2.git
+  startAll: true
+
+jobs:
+  main:
+    image: node:8
+    steps:
+        - secrets: echo A:$A_SECRET B:$B_SECRET C:$C_SECRET
+    requires: [~pr, ~commit]
+    secrets:
+      - A_SECRET
+      - B_SECRET
+      - C_SECRET
