@@ -7,7 +7,7 @@ jobs:
   main:
     image: node:8
     steps:
-        - secrets: echo A: $A_SECRET && echo B: $B_SECRET && echo C: $C_SECRET
+        - secrets: echo A:$A_SECRET && echo B:$B_SECRET && echo C:$C_SECRET
     requires: [~pr, ~commit]
     secrets:
       - A_SECRET
