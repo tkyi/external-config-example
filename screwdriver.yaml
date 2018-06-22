@@ -1,4 +1,3 @@
-errors
 childPipelines:
   scmUrls:
     - git@github.com:screwdriver-cd-test/external-config-child1.git
