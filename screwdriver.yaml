@@ -10,5 +10,6 @@ jobs:
         - secrets: echo A:$A_SECRET && echo B:$B_SECRET && echo C:$C_SECRET
     requires: [~pr, ~commit]
     secrets:
+      - A_SECRET
       - B_SECRET
       - C_SECRET
