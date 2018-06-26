@@ -12,3 +12,4 @@ jobs:
     secrets:
       - A_SECRET
       - B_SECRET
+      - C_SECRET
