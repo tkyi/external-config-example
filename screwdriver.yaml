@@ -11,3 +11,4 @@ jobs:
     requires: [~pr, ~commit]
     secrets:
       - A_SECRET
+      - B_SECRET
