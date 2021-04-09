@@ -1,7 +1,7 @@
 childPipelines:
   scmUrls:
-    - git@github.com:screwdriver-cd-test/external-config-child1.git
-    - git@github.com:screwdriver-cd-test/external-config-child2.git
+    - git@github.com:tkyi/quickstart-ruby.git#main:lib/test/src
+    - git@github.com:tkyi/quickstart-ruby.git
 jobs:
   main:
     image: node:8
