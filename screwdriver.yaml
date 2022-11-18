@@ -1,6 +1,6 @@
 childPipelines:
   scmUrls:
-    - git@github.com:tkyi/quickstart-ruby.git#main:lib/test/src
+  # - git@github.com:tkyi/quickstart-ruby.git#main:lib/test/src
     - git@github.com:tkyi/quickstart-ruby.git#main:spec
     - git@github.com:tkyi/quickstart-ruby.git
     - git@github.com:tkyi/quickstart-ruby.git#master
